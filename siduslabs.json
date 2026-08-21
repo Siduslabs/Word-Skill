@@ -1,0 +1,9 @@
+{
+  "name": "Word",
+  "category": "Skills",
+  "description": "Builds polished, professional .docx documents -- proper headings, tables, lists, and page setup for reports, letters, memos, and templates.",
+  "author": "Siduslabs",
+  "version": "1.0.0",
+  "tags": ["docx", "word", "document", "report", "memo", "document-creation"],
+  "readme": "# Word Skill\n\nTurns your notes, data, or draft into a polished, professional .docx -- proper headings, tables, TOC, and page setup done right, built with docx-js.\n\n## What it does\n- Uses real heading styles so navigation, TOCs, and document structure actually work\n- Sets up proper page size, margins, headers, and footers instead of leaving library defaults in place\n- Handles tracked changes and comments correctly, with every edit properly wrapped and attributed\n- Avoids the common docx-js footguns -- table width, list bullets, page breaks, dot-leaders\n- Renders every page to an image and checks for overflow, bad breaks, and leftover placeholder text before calling it done\n\n## Try it\n- \"write this up as a Word doc\"\n- \"turn my notes into a formal report\"\n- \"add tracked changes for this edit\"\n\nWorks from a blank prompt or an existing .docx/.dotx template."
+}
